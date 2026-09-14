@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://martincaominxuan.github.io/Beginner-Martin-personal-portfolio/sitemap.xml

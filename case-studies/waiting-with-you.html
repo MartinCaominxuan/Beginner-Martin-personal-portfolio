@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Waiting With You: an AI-assisted recruitment prototype redesigned around candidate uncertainty, transparent status, and responsible support." />
+    <meta property="og:title" content="Waiting With You | Martin Cao" />
+    <meta property="og:description" content="A runnable recruitment prototype redesigned around candidate uncertainty and responsible support." />
+    <meta property="og:type" content="article" />
+    <meta name="twitter:card" content="summary" />
+    <title>Waiting With You | Minxuan Cao</title>
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="wordmark" href="../index.html"><span>MC</span><span class="wordmark-text">Minxuan Cao</span></a>
+      <nav aria-label="Primary navigation">
+        <a href="../index.html#work">Work</a><a href="../research.html">Research</a><a href="../about.html">About</a><a href="../assets/documents/Martin_Cao_Web_CV.pdf">CV</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="project-hero">
+        <a class="breadcrumb" href="../index.html#work">← Selected work</a>
+        <p class="eyebrow">Service design · Responsible AI · Working code</p>
+        <h1>Waiting With You</h1>
+        <p class="project-deck">How might a recruitment system support candidates during unresolved waiting—without inventing certainty or turning anxiety into a hiring signal?</p>
+        <span class="status-pill">Runnable portfolio prototype · AI and email simulated</span>
+      </section>
+
+      <dl class="meta-grid">
+        <div><dt>Role</dt><dd>Independent product designer and developer</dd></div>
+        <div><dt>Context</dt><dd>Internship take-home redesigned after submission</dd></div>
+        <div><dt>Methods</dt><dd>Journey mapping, workflow design, ethical analysis</dd></div>
+        <div><dt>Tools</dt><dd>Python, Streamlit, Pandas, GitHub</dd></div>
+      </dl>
+
+      <div class="case-layout">
+        <aside class="case-nav" aria-label="Case study sections">
+          <strong>On this page</strong>
+          <a href="#origin">Origin</a><a href="#reframe">Reframe</a><a href="#prototype">Prototype</a><a href="#principles">Principles</a><a href="#evaluation">Evaluation</a><a href="#reflection">Reflection</a>
+        </aside>
+        <article class="case-content">
+          <section id="origin">
+            <p class="eyebrow">01 · Origin</p>
+            <h2>The product problem appeared after the assignment ended.</h2>
+            <p>During one internship application season, I submitted applications to many companies and spent long periods without decisions. I repeatedly refreshed portals, checked email, and tried to interpret small changes in status.</p>
+            <p>During the same period, one company asked me to design an AI-assisted recruitment system as an interview assignment. My first version focused on the most visible organizational needs: collecting candidate information, structuring assessment, routing applicants, and helping recruiters review results. I did not connect that design to my own experience of waiting.</p>
+            <p>After all of my summer applications ended in rejection, I returned to the prototype. The technical flow worked, but the human boundary was wrong: I had treated the recruiter as the primary user and the candidate largely as information moving through a pipeline.</p>
+            <blockquote class="lead-quote">A system can function normally while silence becomes a consequential part of the user experience.</blockquote>
+          </section>
+
+          <section id="reframe">
+            <p class="eyebrow">02 · Reframe</p>
+            <h2>From screening efficiency to a two-sided waiting system.</h2>
+            <div class="comparison">
+              <div><h3>Version 1</h3><p>Recruiter-centered routing</p><ul><li>One-time candidate classification</li><li>Résumé and behavioral assessment</li><li>Efficiency as the main success criterion</li><li>Candidate experience ends at submission</li></ul></div>
+              <div><h3>Version 2</h3><p>Candidate and recruiter workflow</p><ul><li>Five-stage application progress</li><li>Confirmed facts separated from estimates</li><li>Support throughout unresolved waiting</li><li>Human review for consequential decisions</li></ul></div>
+            </div>
+            <p>The redesign did not assume that more communication could remove uncertainty. Instead, it asked what the system could responsibly clarify: what is confirmed, what is estimated, what action—if any—is available, and when silence should trigger supportive communication.</p>
+          </section>
+
+          <section id="prototype">
+            <p class="eyebrow">03 · Prototype</p>
+            <h2>A working interface with explicit production boundaries.</h2>
+            <div class="prototype-window" role="img" aria-label="Illustration of the Waiting With You candidate and recruiter interface">
+              <div class="prototype-sidebar"><strong>Candidate view</strong><div>Application overview</div><div>Current stage</div><div>Messages and support</div><div>Waiting feedback</div></div>
+              <div class="prototype-main"><small>APPLICATION 24-031</small><h3>Your review is in progress</h3><div class="prototype-stage"><span class="active"></span><span class="active"></span><span class="active"></span><span></span><span></span></div><p><strong>Confirmed:</strong> your application remains active.</p><p><strong>Estimated:</strong> this stage often takes 5–10 business days.</p><div class="prototype-message"><strong>No action is required.</strong><p>Waiting can make every quiet day feel meaningful. We will distinguish new information from routine processing.</p></div></div>
+            </div>
+            <p>Core interactions are implemented in a runnable bilingual prototype. Real AI calls, production applicant-tracking integration, and email delivery remain simulated. This distinction is visible because an admissions portfolio should demonstrate design and implementation without overstating deployment.</p>
+            <div class="link-row"><a class="button button-primary" href="https://github.com/MartinCaominxuan/Waiting-with-you-Candidates-feeling-matter">View public code</a></div>
+          </section>
+
+          <section id="principles">
+            <p class="eyebrow">04 · Product principles</p>
+            <h2>Behavior can guide support without becoming evidence against the user.</h2>
+            <div class="principle-grid">
+              <div class="principle"><h3>Label uncertainty</h3><p>Confirmed workflow information, estimates, and demonstration-only content must remain visibly distinct.</p></div>
+              <div class="principle"><h3>Separate support from judgment</h3><p>Refresh counts may personalize reassurance, but are never shared with decision-makers or used in evaluation.</p></div>
+              <div class="principle"><h3>Keep a human accountable</h3><p>AI structures information; high-impact and borderline decisions require human review.</p></div>
+            </div>
+            <div class="callout"><strong>Design boundary</strong><p>Repeated refreshing is interpreted only as a possible sign of unmet information needs—not as a diagnosis, personality trait, or measure of candidate quality.</p></div>
+          </section>
+
+          <section id="evaluation">
+            <p class="eyebrow">05 · Evaluation plan</p>
+            <h2>The prototype creates questions; it does not answer them.</h2>
+            <table class="risk-table">
+              <thead><tr><th>Question</th><th>What I would observe</th><th>Design decision</th></tr></thead>
+              <tbody>
+                <tr><td>Does staged information reduce confusion?</td><td>Comprehension of confirmed versus estimated status</td><td>Information hierarchy and wording</td></tr>
+                <tr><td>When does support feel reassuring or manipulative?</td><td>Perceived sincerity, pressure, and appropriateness</td><td>Message frequency and tone</td></tr>
+                <tr><td>Does refresh tracking help or create surveillance?</td><td>Comfort, perceived control, and willingness to opt in</td><td>Whether the feature should exist</td></tr>
+              </tbody>
+            </table>
+          </section>
+
+          <section id="reflection">
+            <p class="eyebrow">06 · Reflection</p>
+            <h2>My most important iteration was redefining who counted as a user.</h2>
+            <p>Waiting With You taught me that empathy is not a decorative message added after the workflow is built. It changes system boundaries, data rules, status language, and the definition of success. It also taught me to state where evidence ends: the prototype demonstrates a design argument, not that its support will reduce anxiety.</p>
+          </section>
+        </article>
+      </div>
+      <div class="case-footer"><a class="text-link" href="../index.html#work">← All selected work</a><a class="button button-primary" href="ip-alive.html">Next: IP Alive →</a></div>
+    </main>
+    <footer><div><strong>Minxuan (Martin) Cao</strong><span>Human factors · Human-AI interaction</span></div><div class="footer-links"><a href="mailto:mc286@uw.edu">Email</a><a href="https://github.com/MartinCaominxuan">GitHub</a></div></footer>
+  </body>
+</html>
