@@ -4,7 +4,18 @@
     <meta charset="utf-8" />
     <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <title>ip-alive</title>
+    <title>IP Alive — Interactive Prototype</title>
+    <script>
+      (() => {
+        const demoBase = "/Beginner-Martin-personal-portfolio/demos/ip-alive/";
+        const requestedPath = window.location.pathname;
+
+        if (requestedPath.startsWith(demoBase) && requestedPath !== demoBase) {
+          const route = requestedPath.slice(demoBase.length) + window.location.search + window.location.hash;
+          window.location.replace(`${demoBase}?__route=${encodeURIComponent(route)}`);
+        }
+      })();
+    </script>
     <!-- The `react-native-web` recommended style reset: https://necolas.github.io/react-native-web/docs/setup/#root-element -->
     <style id="expo-reset">
       /* These styles make the body full-height */
@@ -32,6 +43,6 @@
     </noscript>
     <!-- The root element for your Expo app. -->
     <div id="root"></div>
-  <script src="/Beginner-Martin-personal-portfolio/demos/ip-alive/_expo/static/js/web/entry-b6dd36c7d9ffbb5f403c717054cc17da.js" defer></script>
+  <script src="/Beginner-Martin-personal-portfolio/demos/ip-alive/_expo/static/js/web/entry-fffdd0737baf570da9e1a0b80cbba2c9.js" defer></script>
 </body>
 </html>

@@ -16,7 +16,7 @@
     <header class="site-header">
       <a class="wordmark" href="../index.html"><span>MC</span><span class="wordmark-text">Minxuan Cao</span></a>
       <nav aria-label="Primary navigation">
-        <a href="../index.html#work">Work</a><a href="../research.html">Research</a><a href="../about.html">About</a><a href="../assets/documents/Martin_Cao_Web_CV.pdf">CV</a>
+        <a href="../index.html#work">Work</a><a href="../research.html">Research</a><a href="../about.html">About</a><a href="../personal.html">Beyond Work</a><a href="../assets/documents/Martin_Cao_Web_CV.pdf">CV</a>
       </nav>
     </header>
 
@@ -26,7 +26,7 @@
         <p class="eyebrow">Service design · Responsible AI · Working code</p>
         <h1>Waiting With You</h1>
         <p class="project-deck">How might a recruitment system support candidates during unresolved waiting—without inventing certainty or turning anxiety into a hiring signal?</p>
-        <span class="status-pill">Runnable portfolio prototype · AI and email simulated</span>
+        <span class="status-pill">Working Streamlit prototype · annotated interface walkthrough</span>
       </section>
 
       <dl class="meta-grid">
@@ -63,13 +63,19 @@
 
           <section id="prototype">
             <p class="eyebrow">03 · Prototype</p>
-            <h2>A working interface with explicit production boundaries.</h2>
-            <div class="interactive-demo">
-              <div class="interactive-demo-header"><p>Use the tabs, check status repeatedly, and inspect the privacy boundary between the two views.</p><a class="button button-secondary" href="../demos/waiting-with-you/">Open full demo</a></div>
-              <iframe src="../demos/waiting-with-you/" title="Interactive Waiting With You browser demo" loading="lazy"></iframe>
+            <h2>A working interface, shown screen by screen.</h2>
+            <p>The prototype runs in Python and Streamlit. For a stable admissions review, the walkthrough below uses annotated captures from the real interface rather than a simplified recreation. Scroll horizontally to follow the design evolution, candidate experience, refresh response, feedback and email flow, and recruiter-side assessment.</p>
+            <nav class="slide-jumps" aria-label="Waiting With You walkthrough slides"><a href="#waiting-slide-1">1</a><a href="#waiting-slide-2">2</a><a href="#waiting-slide-3">3</a><a href="#waiting-slide-4">4</a><a href="#waiting-slide-5">5</a><a href="#waiting-slide-6">6</a></nav>
+            <div class="walkthrough-strip" tabindex="0" aria-label="Horizontally scrollable interface walkthrough">
+              <figure id="waiting-slide-1"><img src="../assets/images/waiting-with-you/01-design-evolution.jpg" alt="Annotated comparison of the interview assignment, Version 1, the design critique, and Version 2" /><figcaption><strong>01 · Design evolution.</strong> The first version optimized screening. The second was rebuilt after I recognized that candidate care was absent from the product boundary.</figcaption></figure>
+              <figure id="waiting-slide-2"><img src="../assets/images/waiting-with-you/02-candidate-overview.jpg" alt="Annotated candidate interface showing role selection, AI mode disclosure, candidate selection, confirmed status, and a five-stage process" /><figcaption><strong>02 · Candidate overview.</strong> Role, AI mode, confirmed status, and a deliberately more granular process are visible before any supportive intervention.</figcaption></figure>
+              <figure id="waiting-slide-3"><img src="../assets/images/waiting-with-you/03-refresh-support.jpg" alt="Annotated application status before and after repeated refreshing, including view count and supportive messaging" /><figcaption><strong>03 · Refresh response.</strong> Repeated checking changes the support shown to the candidate, but the signal remains separate from hiring evaluation.</figcaption></figure>
+              <figure id="waiting-slide-4"><img src="../assets/images/waiting-with-you/04-feedback-email.jpg" alt="Annotated candidate feedback controls and a bilingual candidate-care email preview" /><figcaption><strong>04 · Feedback and care email.</strong> Candidates can report clarity and waiting anxiety while the system communicates only what is known and estimated.</figcaption></figure>
+              <figure id="waiting-slide-5"><img src="../assets/images/waiting-with-you/05-recruiter-workspace.jpg" alt="Annotated recruiting dashboard with candidate information, job criteria, behavioral responses, and assessment control" /><figcaption><strong>05 · Recruiter workspace.</strong> Résumé information, job criteria, and behavioral evidence are organized for review rather than presented as an unexplained score.</figcaption></figure>
+              <figure id="waiting-slide-6"><img src="../assets/images/waiting-with-you/06-assessment-review.jpg" alt="Annotated structured assessment, recommendation, evidence, candidate-facing summary, records, and human correction" /><figcaption><strong>06 · Assessment and correction.</strong> The workflow exposes evidence, retains a candidate-facing summary, and records where human correction changes an AI-supported judgment.</figcaption></figure>
             </div>
-            <p>The embedded browser experience is a static adaptation of the runnable bilingual Python/Streamlit prototype, designed for reliable portfolio hosting. Real AI calls, production applicant-tracking integration, and email delivery remain simulated.</p>
-            <div class="link-row"><a class="button button-primary" href="https://github.com/MartinCaominxuan/Waiting-with-you-Candidates-feeling-matter">View public code</a></div>
+            <div class="link-row"><a class="button button-primary" href="https://github.com/MartinCaominxuan/Waiting-with-you-Candidates-feeling-matter">View public code</a><a class="button button-secondary" href="../assets/documents/Waiting_With_You_Portfolio_Walkthrough.pdf">Open full walkthrough PDF</a></div>
+            <p class="boundary-note">Real AI calls, applicant-tracking integration, and email delivery remain intentionally simulated. The interface demonstrates product logic and responsible boundaries, not a production hiring system.</p>
           </section>
 
           <section id="principles">
