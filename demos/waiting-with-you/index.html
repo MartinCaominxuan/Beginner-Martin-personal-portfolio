@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Interactive browser demonstration of Waiting With You." />
+    <title>Waiting With You · Interactive Demo</title>
+    <link rel="stylesheet" href="demo.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#demo-main">Skip to demo</a>
+    <header class="demo-header">
+      <a href="../../case-studies/waiting-with-you.html" aria-label="Return to the Waiting With You case study">Waiting With You</a>
+      <span>Portfolio simulation · no real applicant data</span>
+    </header>
+
+    <main id="demo-main" class="demo-shell">
+      <div class="view-switch" role="tablist" aria-label="Prototype perspective">
+        <button class="tab active" id="candidate-tab" role="tab" aria-selected="true" aria-controls="candidate-view">Candidate view</button>
+        <button class="tab" id="recruiter-tab" role="tab" aria-selected="false" aria-controls="recruiter-view">Recruiter view</button>
+      </div>
+
+      <section id="candidate-view" class="view-panel" role="tabpanel" aria-labelledby="candidate-tab">
+        <aside class="sidebar">
+          <p class="overline">DEMO APPLICATION</p>
+          <h1>Product Research Intern</h1>
+          <p>Application 24-031</p>
+          <nav aria-label="Candidate demo navigation">
+            <button class="nav-item active" type="button">Application overview</button>
+            <button class="nav-item" type="button">Messages &amp; support</button>
+            <button class="nav-item" type="button">Your data choices</button>
+          </nav>
+        </aside>
+
+        <div class="workspace">
+          <p class="overline">CURRENT STAGE · 3 OF 5</p>
+          <h2>Your review is in progress</h2>
+          <ol class="progress" aria-label="Application progress">
+            <li class="done"><span>1</span>Submitted</li>
+            <li class="done"><span>2</span>Screened</li>
+            <li class="current"><span>3</span>Review</li>
+            <li><span>4</span>Interview</li>
+            <li><span>5</span>Decision</li>
+          </ol>
+
+          <div class="fact-grid">
+            <article><span>CONFIRMED</span><strong>Your application remains active.</strong></article>
+            <article><span>ESTIMATED</span><strong>This stage often takes 5–10 business days.</strong></article>
+            <article><span>ACTION</span><strong>No action is required from you.</strong></article>
+          </div>
+
+          <div class="support-card" aria-live="polite">
+            <div>
+              <p class="overline">STATUS CHECK</p>
+              <h3 id="status-title">There is no new decision yet.</h3>
+              <p id="status-message">Routine processing can be quiet. We will label new information clearly when it arrives.</p>
+            </div>
+            <div class="refresh-area">
+              <button class="primary-action" id="refresh-button" type="button">Check status</button>
+              <small><span id="refresh-count">0</span> checks in this demo session</small>
+            </div>
+          </div>
+
+          <label class="consent-control">
+            <input id="support-opt-in" type="checkbox" checked />
+            <span><strong>Use my check pattern only to adjust supportive messages.</strong><small>Never share it with hiring decision-makers.</small></span>
+          </label>
+        </div>
+      </section>
+
+      <section id="recruiter-view" class="view-panel hidden" role="tabpanel" aria-labelledby="recruiter-tab">
+        <aside class="sidebar recruiter-sidebar">
+          <p class="overline">RECRUITER WORKSPACE</p>
+          <h1>Product Research Intern</h1>
+          <p>18 active candidates</p>
+          <nav aria-label="Recruiter demo navigation">
+            <button class="nav-item active" type="button">Review queue</button>
+            <button class="nav-item" type="button">Stage communication</button>
+            <button class="nav-item" type="button">Audit log</button>
+          </nav>
+        </aside>
+
+        <div class="workspace">
+          <p class="overline">HUMAN REVIEW REQUIRED</p>
+          <h2>Candidate evidence, not waiting behavior</h2>
+          <div class="candidate-row header-row"><span>Candidate</span><span>Evidence status</span><span>Next action</span></div>
+          <div class="candidate-row"><strong>Candidate 031</strong><span class="badge">Review complete</span><button type="button">Open packet</button></div>
+          <div class="candidate-row"><strong>Candidate 044</strong><span class="badge neutral">Needs review</span><button type="button">Open packet</button></div>
+          <div class="candidate-row"><strong>Candidate 052</strong><span class="badge">Review complete</span><button type="button">Open packet</button></div>
+          <div class="boundary-card">
+            <p class="overline">DATA BOUNDARY</p>
+            <h3>Refresh counts are absent from this view.</h3>
+            <p>Candidate support signals are isolated from evaluation. They cannot be searched, scored, or exported by the hiring team.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer><span>Adapted from the runnable Python/Streamlit prototype for static portfolio hosting.</span><a href="https://github.com/MartinCaominxuan/Waiting-with-you-Candidates-feeling-matter">View source project</a></footer>
+    <script src="demo.js"></script>
+  </body>
+</html>
