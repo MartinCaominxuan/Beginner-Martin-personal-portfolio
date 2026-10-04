@@ -1,17 +1,17 @@
 :root {
-  --ink: #12201f;
-  --muted: #5b6865;
+  --ink: #241a33;
+  --muted: #665f70;
   --paper: #f4f0e8;
   --paper-deep: #e9e2d5;
-  --forest: #102c2c;
-  --teal: #1d6660;
-  --mint: #b9dfd5;
-  --gold: #d2a755;
+  --forest: #2d174f;
+  --teal: #4b2e83;
+  --mint: #c5b4e3;
+  --gold: #b7a57a;
   --uw-purple: #4b2e83;
   --uw-lavender: #c5b4e3;
   --uw-gold: #b7a57a;
-  --line: rgba(18, 32, 31, 0.18);
-  --shadow: 0 18px 60px rgba(16, 44, 44, 0.12);
+  --line: rgba(75, 46, 131, 0.2);
+  --shadow: 0 18px 60px rgba(75, 46, 131, 0.14);
   --max: 1180px;
 }
 
@@ -23,8 +23,8 @@ body {
   margin: 0;
   color: var(--ink);
   background:
-    radial-gradient(circle at 8% 1%, rgba(197, 180, 227, 0.22), transparent 20rem),
-    radial-gradient(circle at 80% 5%, rgba(185, 223, 213, 0.42), transparent 24rem),
+    radial-gradient(circle at 8% 1%, rgba(197, 180, 227, 0.3), transparent 20rem),
+    radial-gradient(circle at 80% 5%, rgba(183, 165, 122, 0.2), transparent 24rem),
     var(--paper);
   font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   line-height: 1.55;
