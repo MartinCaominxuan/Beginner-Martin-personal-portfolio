@@ -43,7 +43,7 @@ styles.css
 - Exploratory survey evidence is not presented as product validation.
 - Pause With You makes no safety, cessation, or clinical-effectiveness claim.
 - No identifiable participant data or confidential research data are published.
-- The pending ACL manuscript is described as a revised manuscript under review.
+- The ACL pilot article is listed as published in *Medical Research Archives*, 14(9), with its DOI and appropriately cautious interpretation of the preliminary findings.
 
 ## Contact
 
