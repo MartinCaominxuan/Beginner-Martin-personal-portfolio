@@ -1,0 +1,177 @@
+[
+  {
+    "key": "ackerley",
+    "reference": "Ackerley, R., Backlund Wasling, H., Liljencrantz, J., Olausson, H., Johnson, R. D., & Wessberg, J. (2014). Human C-tactile afferents are tuned to the temperature of a skin-stroking caress. The Journal of Neuroscience, 34(8), 2879–2883.",
+    "doi": "10.1523/JNEUROSCI.2847-13.2014",
+    "verification_url": "https://pubmed.ncbi.nlm.nih.gov/24553929/",
+    "access": "Abstract and bibliographic record"
+  },
+  {
+    "key": "block21",
+    "reference": "Block, A. E., Christen, S., Gassert, R., Hilliges, O., & Kuchenbecker, K. J. (2021). The six hug commandments: Design and evaluation of a human-sized hugging robot with visual and haptic perception. In Proceedings of the 2021 ACM/IEEE International Conference on Human-Robot Interaction (pp. 380–388). Association for Computing Machinery.",
+    "doi": "10.1145/3434073.3444656",
+    "verification_url": "https://is.mpg.de/uploads/publication_attachment/attachment/635/Block21-HRI-Commandments.pdf",
+    "access": "Author manuscript, arXiv abstract and MPI publication metadata"
+  },
+  {
+    "key": "block23",
+    "reference": "Block, A. E., Seifi, H., Hilliges, O., Gassert, R., & Kuchenbecker, K. J. (2023). In the arms of a robot: Designing autonomous hugging robots with intra-hug gestures. ACM Transactions on Human-Robot Interaction, 12(2), Article 18.",
+    "doi": "10.1145/3526110",
+    "verification_url": "https://www.research-collection.ethz.ch/server/api/core/bitstreams/79e74805-6f4f-4897-92ee-135dda125a5e/content",
+    "access": "Author manuscript and bibliographic front matter"
+  },
+  {
+    "key": "cohen",
+    "reference": "Cohen, S., Janicki-Deverts, D., Turner, R. B., & Doyle, W. J. (2015). Does hugging provide stress-buffering social support? A study of susceptibility to upper respiratory infection and illness. Psychological Science, 26(2), 135–147.",
+    "doi": "10.1177/0956797614559284",
+    "verification_url": "https://www.cmu.edu/dietrich/psychology/stress-immunity-disease-lab/publications/stresssocial/pdfs/does-hugging.pdf",
+    "access": "Author manuscript and PubMed record"
+  },
+  {
+    "key": "material",
+    "reference": "Dąbrowska, A. K., Rotaru, G.-M., Derler, S., Spano, F., Camenzind, M., Annaheim, S., Stämpfli, R., Schmid, M., & Rossi, R. M. (2016). Materials used to simulate physical properties of human skin. Skin Research and Technology, 22(1), 3–14.",
+    "doi": "10.1111/srt.12235",
+    "verification_url": "https://onlinelibrary.wiley.com/doi/full/10.1111/srt.12235",
+    "access": "Full-text sections and PubMed metadata"
+  },
+  {
+    "key": "defreitas",
+    "reference": "De Freitas, J., Oğuz-Uğuralp, Z., Uğuralp, A. K., & Puntoni, S. (2026). AI companions reduce loneliness. Journal of Consumer Research, 52(6), 1126–1148.",
+    "doi": "10.1093/jcr/ucaf040",
+    "verification_url": "https://academic.oup.com/jcr/issue/52/6",
+    "access": "Publisher issue metadata plus author-hosted accepted article; online first 2025, issue year 2026"
+  },
+  {
+    "key": "fang",
+    "reference": "Fang, C. M., Liu, A. R., Danry, V., Lee, E., Chan, S. W. T., Pataranutaporn, P., Maes, P., Phang, J., Lampe, M., Ahmad, L., & Agarwal, S. (2025). How AI and human behaviors shape psychosocial effects of chatbot use: A longitudinal randomized controlled study [Preprint]. arXiv.",
+    "doi": "10.48550/arXiv.2503.17473",
+    "verification_url": "https://arxiv.org/abs/2503.17473",
+    "access": "Preprint abstract; no peer-reviewed status inferred"
+  },
+  {
+    "key": "hawkley",
+    "reference": "Hawkley, L. C., & Cacioppo, J. T. (2010). Loneliness matters: A theoretical and empirical review of consequences and mechanisms. Annals of Behavioral Medicine, 40(2), 218–227.",
+    "doi": "10.1007/s12160-010-9210-8",
+    "verification_url": "https://pubmed.ncbi.nlm.nih.gov/20652462/",
+    "access": "PubMed record and accessible review excerpts"
+  },
+  {
+    "key": "hughes",
+    "reference": "Hughes, M. E., Waite, L. J., Hawkley, L. C., & Cacioppo, J. T. (2004). A short scale for measuring loneliness in large surveys: Results from two population-based studies. Research on Aging, 26(6), 655–672.",
+    "doi": "10.1177/0164027504268574",
+    "verification_url": "https://meps.ipums.org/meps/resources/Hughes_et_al2004.pdf",
+    "access": "Paper abstract and bibliographic front matter"
+  },
+  {
+    "key": "huisman",
+    "reference": "Huisman, G. (2017). Social touch technology: A survey of haptic technology for social touch. IEEE Transactions on Haptics, 10(3), 391–408.",
+    "doi": "10.1109/TOH.2017.2650221",
+    "verification_url": "https://research.utwente.nl/en/publications/social-touch-technology-a-survey-of-haptic-technology-for-social-/",
+    "access": "Author institution metadata and PubMed abstract"
+  },
+  {
+    "key": "iso13482",
+    "reference": "International Organization for Standardization. (2014). Robots and robotic devices—Safety requirements for personal care robots (ISO Standard No. 13482:2014).",
+    "doi": "",
+    "verification_url": "https://www.iso.org/standard/53820.html",
+    "access": "Public scope only; full normative text not assessed"
+  },
+  {
+    "key": "iso13732",
+    "reference": "International Organization for Standardization. (2006). Ergonomics of the thermal environment—Methods for the assessment of human responses to contact with surfaces—Part 1: Hot surfaces (ISO Standard No. 13732-1:2006).",
+    "doi": "",
+    "verification_url": "https://www.iso.org/standard/43558.html",
+    "access": "Public scope only; full normative text not assessed"
+  },
+  {
+    "key": "li",
+    "reference": "Li, R.-N., Folk, D., Singh, A., Ungar, L., & Dunn, E. (2026). Is a random human peer better than a highly supportive chatbot in reducing loneliness over time? Journal of Experimental Social Psychology, 125, Article 104911.",
+    "doi": "10.1016/j.jesp.2026.104911",
+    "verification_url": "https://www.sciencedirect.com/science/article/pii/S0022103126000417",
+    "access": "Publisher indexed abstract and result excerpt; full publisher page blocked"
+  },
+  {
+    "key": "loken",
+    "reference": "Löken, L. S., Wessberg, J., Morrison, I., McGlone, F., & Olausson, H. (2009). Coding of pleasant touch by unmyelinated afferents in humans. Nature Neuroscience, 12(5), 547–548.",
+    "doi": "10.1038/nn.2312",
+    "verification_url": "https://pubmed.ncbi.nlm.nih.gov/19363489/",
+    "access": "Abstract and bibliographic record"
+  },
+  {
+    "key": "maslach",
+    "reference": "Maslach, C., & Leiter, M. P. (2016). Understanding the burnout experience: Recent research and its implications for psychiatry. World Psychiatry, 15(2), 103–111.",
+    "doi": "10.1002/wps.20311",
+    "verification_url": "https://pubmed.ncbi.nlm.nih.gov/27265691/",
+    "access": "Abstract, publisher excerpts and bibliographic record"
+  },
+  {
+    "key": "mueller",
+    "reference": "Mueller, F., Vetere, F., Gibbs, M. R., Kjeldskov, J., Pedell, S., & Howard, S. (2005). Hug over a distance. In CHI ’05 Extended Abstracts on Human Factors in Computing Systems (pp. 1673–1676). Association for Computing Machinery.",
+    "doi": "10.1145/1056808.1056994",
+    "verification_url": "https://research.monash.edu/en/publications/hug-over-a-distance/",
+    "access": "Author institution abstract and publication metadata"
+  },
+  {
+    "key": "packheiser",
+    "reference": "Packheiser, J., Hartmann, H., Fredriksen, K., Gazzola, V., Keysers, C., & Michon, F. (2024). A systematic review and multivariate meta-analysis of the physical and mental health benefits of touch interventions. Nature Human Behaviour, 8(6), 1088–1107.",
+    "doi": "10.1038/s41562-024-01841-8",
+    "verification_url": "https://pubmed.ncbi.nlm.nih.gov/38589702/",
+    "access": "Full-text methods, limitations and results excerpts; quantitative subgroup values checked in PubMed abstract"
+  },
+  {
+    "key": "rus",
+    "reference": "Rus, D., & Tolley, M. T. (2015). Design, fabrication and control of soft robots. Nature, 521, 467–475.",
+    "doi": "10.1038/nature14543",
+    "verification_url": "https://www.nature.com/articles/nature14543",
+    "access": "Publisher indexed metadata and summary; full page inaccessible"
+  },
+  {
+    "key": "nist",
+    "reference": "Tabassi, E. (2023). Artificial intelligence risk management framework (AI RMF 1.0) (NIST AI 100-1). National Institute of Standards and Technology.",
+    "doi": "10.6028/NIST.AI.100-1",
+    "verification_url": "https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-ai-rmf-10",
+    "access": "Official framework overview and publication metadata"
+  },
+  {
+    "key": "vanerp",
+    "reference": "van Erp, J. B. F., & Toet, A. (2015). Social touch in human–computer interaction. Frontiers in Digital Humanities, 2, Article 2.",
+    "doi": "10.3389/fdigh.2015.00002",
+    "verification_url": "https://www.frontiersin.org/journals/digital-humanities/articles/10.3389/fdigh.2015.00002/full",
+    "access": "Full-text review excerpts"
+  },
+  {
+    "key": "wong",
+    "reference": "Wong, Y. J., Ho, M.-H. R., Wang, S.-Y., & Miller, I. S. K. (2017). Meta-analyses of the relationship between conformity to masculine norms and mental health-related outcomes. Journal of Counseling Psychology, 64(1), 80–93.",
+    "doi": "10.1037/cou0000176",
+    "verification_url": "https://pubmed.ncbi.nlm.nih.gov/27869454/",
+    "access": "Abstract, APA manuscript excerpts and bibliographic record"
+  },
+  {
+    "key": "basf",
+    "reference": "BASF. (n.d.). Elastollan thermoplastic polyurethane.",
+    "doi": "",
+    "verification_url": "https://plastics-rubber.basf.com/global/en/performance_polymers/products/elastollan",
+    "access": "Manufacturer product information, accessed 3 November 2026; not independent contact-safety evidence"
+  },
+  {
+    "key": "rfcsecurity",
+    "reference": "Rescorla, E. (2021). WebRTC security architecture (RFC 8827). Internet Engineering Task Force.",
+    "doi": "10.17487/RFC8827",
+    "verification_url": "https://www.rfc-editor.org/rfc/rfc8827.html",
+    "access": "Official RFC, communications security and permission sections"
+  },
+  {
+    "key": "rfcaudio",
+    "reference": "Valin, J.-M., & Bran, C. (2016). WebRTC audio codec and processing requirements (RFC 7874). Internet Engineering Task Force.",
+    "doi": "10.17487/RFC7874",
+    "verification_url": "https://www.rfc-editor.org/rfc/rfc7874.html",
+    "access": "Official RFC, codec and acoustic echo cancellation requirements"
+  },
+  {
+    "key": "webrtc",
+    "reference": "WebRTC. (n.d.). Getting started with peer connections.",
+    "doi": "",
+    "verification_url": "https://webrtc.org/getting-started/peer-connections",
+    "access": "Official implementation guide, accessed 3 November 2026"
+  }
+]

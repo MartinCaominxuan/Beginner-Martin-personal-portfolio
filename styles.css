@@ -866,3 +866,27 @@ footer span { color: var(--muted); }
   html { scroll-behavior: auto; }
   * { transition: none !important; }
 }
+
+/* Holding Together: scoped diagrams and data */
+.holding-card > a { display: block; }
+.holding-card > a img { object-fit: contain; background: #f7e5d7; }
+.ht-evidence { padding: 1.5rem; border: 1px solid var(--line); border-radius: 1rem; margin: 2rem 0; }
+.ht-evidence > div { display: grid; grid-template-columns: 1fr auto; gap: .35rem 1rem; margin-bottom: 1.2rem; }
+.ht-evidence .ht-bar { grid-column: 1; grid-row: 2; height: 1.1rem; width: var(--effect); background: var(--teal); border-radius: 3px; }
+.ht-evidence strong { grid-column: 2; grid-row: 2; line-height: 1.1; }
+.ht-evidence small { grid-column: 1 / -1; color: var(--muted); }
+.ht-evidence > p { font-size: .85rem; margin: 0; }
+.ht-table-scroll { overflow-x: auto; }
+.ht-table-scroll caption { text-align: left; font-size: .9rem; padding-bottom: .7rem; color: var(--muted); }
+.ht-table-scroll th { text-align: left; padding: .85rem; border-bottom: 1px solid var(--line); vertical-align: top; }
+.ht-table-scroll thead { background: var(--paper-deep); }
+.ht-table-scroll table { min-width: 530px; }
+.ht-rear { position: relative; }
+.ht-patch,.ht-spine { position: absolute; top: 43%; height: 24%; border: 2px dashed #36796d; background: #bce3d314; pointer-events: none; }
+.ht-patch { width: 14%; }
+.ht-patch-left { left: 31.5%; }
+.ht-patch-right { left: 53.5%; }
+.ht-spine { left: 48%; width: 4%; height: 31%; top: 39%; border-color: #9c432b; }
+/* Let wide specification tables scroll inside narrow case-study columns. */
+.case-content { min-width: 0; }
+.ht-table-scroll { max-width: 100%; }
